@@ -1,0 +1,29 @@
+[0.477s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/challenge1': PYTHONPATH=/home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/challenge1 build --build-base /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/build install --record /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/install.log --single-version-externally-managed install_data
+[0.661s] running egg_info
+[0.662s] writing ../build/challenge1/challenge1.egg-info/PKG-INFO
+[0.662s] writing dependency_links to ../build/challenge1/challenge1.egg-info/dependency_links.txt
+[0.662s] writing entry points to ../build/challenge1/challenge1.egg-info/entry_points.txt
+[0.662s] writing requirements to ../build/challenge1/challenge1.egg-info/requires.txt
+[0.662s] writing top-level names to ../build/challenge1/challenge1.egg-info/top_level.txt
+[0.664s] reading manifest file '../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[0.664s] adding license file 'LICENSE'
+[0.666s] writing manifest file '../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] copying challenge1/signal_generator.py -> /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/build/lib/challenge1
+[0.667s] copying challenge1/process_node.py -> /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/build/lib/challenge1
+[0.667s] running install
+[0.667s] running install_lib
+[0.667s] copying /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/build/lib/challenge1/signal_generator.py -> /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages/challenge1
+[0.667s] copying /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/build/lib/challenge1/process_node.py -> /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages/challenge1
+[0.668s] byte-compiling /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages/challenge1/signal_generator.py to signal_generator.cpython-310.pyc
+[0.668s] byte-compiling /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages/challenge1/process_node.py to process_node.cpython-310.pyc
+[0.669s] running install_data
+[0.669s] running install_egg_info
+[0.670s] removing '/home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.670s] Copying ../build/challenge1/challenge1.egg-info to /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.687s] Installing process_node script to /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/challenge1
+[0.687s] Installing signal_generator script to /home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/challenge1
+[0.687s] writing list of installed files to '/home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/install.log'
+[0.706s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/challenge1' returned '0': PYTHONPATH=/home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/ManchesterRobotics/ch1_ws/src/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/challenge1 build --build-base /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/build install --record /home/emilio/ManchesterRobotics/ch1_ws/src/build/challenge1/install.log --single-version-externally-managed install_data

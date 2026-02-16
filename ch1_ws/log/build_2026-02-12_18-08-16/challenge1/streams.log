@@ -1,0 +1,42 @@
+[0.415s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/challenge1': PYTHONPATH=/home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build install --record /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/install.log --single-version-externally-managed install_data
+[0.582s] running egg_info
+[0.582s] creating ../../build/challenge1/challenge1.egg-info
+[0.583s] writing ../../build/challenge1/challenge1.egg-info/PKG-INFO
+[0.583s] writing dependency_links to ../../build/challenge1/challenge1.egg-info/dependency_links.txt
+[0.583s] writing entry points to ../../build/challenge1/challenge1.egg-info/entry_points.txt
+[0.583s] writing requirements to ../../build/challenge1/challenge1.egg-info/requires.txt
+[0.583s] writing top-level names to ../../build/challenge1/challenge1.egg-info/top_level.txt
+[0.583s] writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[0.584s] reading manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[0.584s] adding license file 'LICENSE'
+[0.585s] writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[0.585s] running build
+[0.585s] running build_py
+[0.585s] creating /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build
+[0.585s] creating /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib
+[0.585s] creating /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1
+[0.585s] copying challenge1/signal_generator.py -> /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1
+[0.585s] copying challenge1/process_node.py -> /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1
+[0.585s] copying challenge1/__init__.py -> /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1
+[0.585s] running install
+[0.586s] running install_lib
+[0.586s] creating /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[0.586s] copying /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1/signal_generator.py -> /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[0.586s] copying /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1/process_node.py -> /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[0.586s] copying /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build/lib/challenge1/__init__.py -> /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1
+[0.586s] byte-compiling /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1/signal_generator.py to signal_generator.cpython-310.pyc
+[0.587s] byte-compiling /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1/process_node.py to process_node.cpython-310.pyc
+[0.587s] byte-compiling /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1/__init__.py to __init__.cpython-310.pyc
+[0.587s] running install_data
+[0.587s] creating /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/ament_index
+[0.587s] creating /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/ament_index/resource_index
+[0.587s] creating /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/ament_index/resource_index/packages
+[0.587s] copying resource/challenge1 -> /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/ament_index/resource_index/packages
+[0.588s] copying package.xml -> /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/challenge1
+[0.588s] creating /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/challenge1/launch
+[0.588s] copying launch/challenge1_launch.py -> /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/share/challenge1/launch
+[0.588s] running install_egg_info
+[0.589s] Copying ../../build/challenge1/challenge1.egg-info to /home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info
+[0.589s] running install_scripts
+[0.603s] writing list of installed files to '/home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/install.log'
+[0.620s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/challenge1' returned '0': PYTHONPATH=/home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/ManchesterRobotics/ch1_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/build install --record /home/emilio/ManchesterRobotics/ch1_ws/build/challenge1/install.log --single-version-externally-managed install_data
