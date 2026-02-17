@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/emilio/ManchesterRobotics/ch1_ws/src/interfaces:srv/SetProcessBool.srv"
+  ]
+}

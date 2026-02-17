@@ -1,0 +1,42 @@
+[0.199s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces
+[0.964s] -- The C compiler identification is GNU 11.4.0
+[1.416s] -- The CXX compiler identification is GNU 11.4.0
+[1.430s] -- Detecting C compiler ABI info
+[1.536s] -- Detecting C compiler ABI info - done
+[1.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.543s] -- Detecting C compile features
+[1.544s] -- Detecting C compile features - done
+[1.548s] -- Detecting CXX compiler ABI info
+[1.636s] -- Detecting CXX compiler ABI info - done
+[1.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.642s] -- Detecting CXX compile features
+[1.642s] -- Detecting CXX compile features - done
+[1.651s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.780s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.887s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.956s] -- Added test 'lint_cmake' to check CMake code style
+[1.959s] -- Added test 'xmllint' to check XML markup files
+[1.966s] -- Configuring done
+[1.968s] -- Generating done
+[1.970s] -- Build files have been written to: /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces
+[1.975s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces
+[1.976s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces -- -j16 -l16
+[2.012s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces -- -j16 -l16
+[2.021s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces
+[2.028s] -- Install configuration: ""
+[2.028s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[2.028s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/path.sh
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/path.dsv
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.bash
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.sh
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.zsh
+[2.029s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.dsv
+[2.030s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/package.dsv
+[2.030s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[2.030s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[2.030s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[2.030s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/package.xml
+[2.032s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces

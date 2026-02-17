@@ -1,0 +1,27 @@
+[0.651s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/motor_control': PYTHONPATH=/home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_control build --build-base /home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/build install --record /home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/install.log --single-version-externally-managed install_data
+[0.825s] running egg_info
+[0.825s] writing ../build/motor_control/motor_control.egg-info/PKG-INFO
+[0.826s] writing dependency_links to ../build/motor_control/motor_control.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../build/motor_control/motor_control.egg-info/entry_points.txt
+[0.826s] writing requirements to ../build/motor_control/motor_control.egg-info/requires.txt
+[0.826s] writing top-level names to ../build/motor_control/motor_control.egg-info/top_level.txt
+[0.828s] reading manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[0.828s] adding license file 'LICENSE'
+[0.829s] writing manifest file '../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[0.829s] running build
+[0.829s] running build_py
+[0.829s] copying motor_control/controller.py -> /home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/build/lib/motor_control
+[0.829s] running install
+[0.829s] running install_lib
+[0.829s] copying /home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/build/lib/motor_control/controller.py -> /home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control
+[0.830s] byte-compiling /home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control/controller.py to controller.cpython-310.pyc
+[0.830s] running install_data
+[0.830s] running install_egg_info
+[0.832s] removing '/home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.832s] Copying ../build/motor_control/motor_control.egg-info to /home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[0.833s] running install_scripts
+[0.846s] Installing controller script to /home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/motor_control
+[0.846s] Installing dc_motor script to /home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/motor_control
+[0.846s] Installing set_point script to /home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/motor_control
+[0.847s] writing list of installed files to '/home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/install.log'
+[0.869s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/motor_control' returned '0': PYTHONPATH=/home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emilio/ManchesterRobotics/ch1_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_control build --build-base /home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/build install --record /home/emilio/ManchesterRobotics/ch1_ws/src/build/motor_control/install.log --single-version-externally-managed install_data

@@ -3,34 +3,29 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
+        # Nodo de signal_generator
         Node(
             package='challenge1',
             executable='signal_generator',
             name='signal_generator',
             output='screen',
             parameters=[
-                # Add parameters here if needed
-                # {'param_name': param_value}
             ],
             remappings=[
-                # Add topic remappings here if needed
-                # ('old_topic', 'new_topic')
             ]
         ),
+        # Nodo de process_node
         Node(
             package='challenge1',
             executable='process_node',
             name='process_node',
             output='screen',
             parameters=[
-                # Add parameters here if needed
-                # {'param_name': param_value}
             ],
             remappings=[
-                # Add topic remappings here if needed
-                # ('old_topic', 'new_topic')
             ]
         ),
+        # Nodo de rqt plot para visualizar ambos nodos
         Node(
             name ='rqt_plot',
             package='rqt_plot',

@@ -1,0 +1,6 @@
+Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces
+Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces
+Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces -- -j16 -l16
+Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces -- -j16 -l16
+Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces
+Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emilio/ManchesterRobotics/ch1_ws/build/interfaces

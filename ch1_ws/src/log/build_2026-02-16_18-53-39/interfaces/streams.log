@@ -1,0 +1,221 @@
+[0.198s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces
+[0.206s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.533s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.899s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.902s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.925s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.925s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.925s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.925s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.942s] -- Found PythonExtra: .so  
+[0.975s] -- Added test 'lint_cmake' to check CMake code style
+[0.976s] -- Added test 'xmllint' to check XML markup files
+[0.990s] -- Configuring done
+[1.017s] -- Generating done
+[1.023s] -- Build files have been written to: /home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces
+[1.030s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces
+[1.031s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces -- -j16 -l16
+[1.065s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.074s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.082s] [  6%] Built target ament_cmake_python_copy_interfaces
+[1.264s] running egg_info
+[1.264s] creating interfaces.egg-info
+[1.264s] writing interfaces.egg-info/PKG-INFO
+[1.264s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[1.264s] writing top-level names to interfaces.egg-info/top_level.txt
+[1.265s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.266s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.266s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.290s] [  6%] Built target ament_cmake_python_build_interfaces_egg
+[1.302s] [  6%] Built target interfaces__cpp
+[1.311s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.311s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_process_bool__functions.c.o[0m
+[1.311s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.312s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.427s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[1.465s] [ 22%] Built target interfaces__rosidl_generator_c
+[1.474s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.474s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.474s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.513s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_process_bool__type_support.cpp.o[0m
+[1.533s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_process_bool__type_support.cpp.o[0m
+[1.542s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_process_bool__type_support.cpp.o[0m
+[1.674s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_process_bool__type_support.cpp.o[0m
+[1.694s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_process_bool__type_support.c.o[0m
+[1.700s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_process_bool__type_support_c.cpp.o[0m
+[1.752s] [ 54%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[1.758s] [ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[1.778s] [ 58%] Built target interfaces__rosidl_typesupport_introspection_c
+[1.796s] [ 58%] Built target interfaces__rosidl_typesupport_c
+[1.894s] [ 61%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[1.936s] [ 61%] Built target interfaces__rosidl_typesupport_cpp
+[1.979s] [ 64%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.002s] [ 67%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.025s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.032s] [ 70%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[2.073s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[2.085s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[2.104s] [ 70%] Built target interfaces
+[2.121s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.418s] [ 74%] Built target interfaces__py
+[2.440s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_process_bool_s.c.o[0m
+[2.594s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[2.634s] [ 80%] Built target interfaces__rosidl_generator_py
+[2.652s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.652s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.652s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.719s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.719s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.725s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.747s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[2.747s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[2.754s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.764s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces -- -j16 -l16
+[2.773s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces
+[2.780s] -- Install configuration: ""
+[2.780s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[2.780s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces
+[2.780s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv
+[2.780s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_process_bool.h
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__type_support.h
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__functions.c
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__struct.h
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__functions.h
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/library_path.sh
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/library_path.dsv
+[2.781s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[2.782s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.782s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__rosidl_typesupport_fastrtps_c.h
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg
+[2.782s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.782s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[2.782s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv
+[2.782s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.783s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__rosidl_typesupport_introspection_c.h
+[2.783s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__type_support.c
+[2.783s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg
+[2.783s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.783s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[2.783s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.783s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[2.783s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__builder.hpp
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__type_support.hpp
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__traits.hpp
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__struct.hpp
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_process_bool.hpp
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv
+[2.784s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[2.784s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[2.785s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg
+[2.785s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.785s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.785s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.785s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces
+[2.785s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv
+[2.785s] -- Up-to-date: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail
+[2.785s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__type_support.cpp
+[2.785s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_process_bool__rosidl_typesupport_introspection_cpp.hpp
+[2.785s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[2.785s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[2.786s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/pythonpath.sh
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.786s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_process_bool.py
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_process_bool_s.c
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.787s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.788s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.788s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[2.788s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[2.813s] Listing '/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[2.813s] Compiling '/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[2.813s] Listing '/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[2.814s] Compiling '/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[2.814s] Compiling '/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_process_bool.py'...
+[2.817s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.818s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.818s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.818s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.818s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.819s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.819s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[2.819s] -- Set runtime path of "/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[2.819s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/srv/SetProcessBool.idl
+[2.819s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/srv/SetProcessBool.srv
+[2.819s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/srv/SetProcessBool_Request.msg
+[2.819s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/srv/SetProcessBool_Response.msg
+[2.819s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/path.sh
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/environment/path.dsv
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/local_setup.bash
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/local_setup.sh
+[2.820s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/local_setup.zsh
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/local_setup.dsv
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/package.dsv
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.821s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.822s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.823s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.824s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.824s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.824s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.824s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[2.824s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[2.824s] -- Installing: /home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces/share/interfaces/package.xml
+[2.826s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces

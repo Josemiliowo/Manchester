@@ -1,0 +1,2 @@
+Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces': /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces
+Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces' returned '1': /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces

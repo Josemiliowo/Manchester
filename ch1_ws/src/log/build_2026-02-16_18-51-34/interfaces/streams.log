@@ -1,0 +1,33 @@
+[0.153s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces': /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces
+[0.760s] -- The C compiler identification is GNU 11.4.0
+[1.210s] -- The CXX compiler identification is GNU 11.4.0
+[1.224s] -- Detecting C compiler ABI info
+[1.333s] -- Detecting C compiler ABI info - done
+[1.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.339s] -- Detecting C compile features
+[1.342s] -- Detecting C compile features - done
+[1.346s] -- Detecting CXX compiler ABI info
+[1.433s] -- Detecting CXX compiler ABI info - done
+[1.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.438s] -- Detecting CXX compile features
+[1.438s] -- Detecting CXX compile features - done
+[1.450s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.450s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.450s]   has asked CMake to find a package configuration file provided by
+[1.450s]   "ament_cmake", but CMake did not find one.
+[1.450s] 
+[1.450s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.450s]   any of the following names:
+[1.450s] 
+[1.450s]     ament_cmakeConfig.cmake
+[1.450s]     ament_cmake-config.cmake
+[1.451s] 
+[1.451s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.451s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.451s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.451s]   has been installed.
+[1.451s] 
+[1.451s] [0m
+[1.451s] -- Configuring incomplete, errors occurred!
+[1.451s] See also "/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces/CMakeFiles/CMakeOutput.log".
+[1.454s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces' returned '1': /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces

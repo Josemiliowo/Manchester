@@ -1,0 +1,15 @@
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/path.sh
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/environment/path.dsv
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.bash
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.sh
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.zsh
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/local_setup.dsv
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/package.dsv
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+/home/emilio/ManchesterRobotics/ch1_ws/install/interfaces/share/interfaces/package.xml

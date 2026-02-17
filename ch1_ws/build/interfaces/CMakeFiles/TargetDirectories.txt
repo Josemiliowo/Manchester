@@ -1,0 +1,9 @@
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/uninstall.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/interfaces_uninstall.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/test.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/edit_cache.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/rebuild_cache.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/list_install_components.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/install.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/install/local.dir
+/home/emilio/ManchesterRobotics/ch1_ws/build/interfaces/CMakeFiles/install/strip.dir

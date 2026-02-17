@@ -1,0 +1,19 @@
+[0.195s] Invoking command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces
+[0.213s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.342s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.464s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.573s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.639s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.639s]   rosidl_generate_interfaces() the passed file 'srv/YourService.srv' doesn't
+[0.639s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.639s]   '/home/emilio/ManchesterRobotics/ch1_ws/src/interfaces'
+[0.639s] Call Stack (most recent call first):
+[0.640s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.640s] 
+[0.640s] [0m
+[0.640s] -- Configuring incomplete, errors occurred!
+[0.640s] See also "/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.645s] Invoked command in '/home/emilio/ManchesterRobotics/ch1_ws/src/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emilio/ManchesterRobotics/ch1_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/emilio/ManchesterRobotics/ch1_ws/src/install/interfaces
